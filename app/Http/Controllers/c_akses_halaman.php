@@ -10,8 +10,17 @@ class c_akses_halaman extends Controller
     {
     		return view('index');
     }
-    public function tes()
+    public function loginfishgo()
     {
-    	return view('test');
+    	return view('login');
     }
+    public function daftarfishgo()
+    {
+    	return view('daftar');
+    }
+     public function productfishgo()
+    {
+    	return view('product');
+    }
+
 }
