@@ -20,22 +20,18 @@
 
 <div class="login-page">
   <div class="form" style="background-color: rgba(0, 0, 0, 0.6);margin-top: auto;margin-bottom: auto;">
-    <form class="register-form">
-      <input type="text" placeholder="name"/>
-      <input type="password" placeholder="password"/>
-      <input type="text" placeholder="email address"/>
-      <button>create</button>
-      <p class="message">Already registered? <a href="#">Sign In</a></p>
-    </form>
-    <form class="login-form">
+    <form class="login-form" action="/daftar" method="post" >
+       {{ csrf_field() }}
       <div class="sidebar_logo" style="bottom: 50px">
       <a href="/"><div>Fish<span>GO</span></div></a>
     </div>
-      <input type="text" placeholder="Nama Lengkap"/>
-      <input type="text" placeholder="username"/>
-      <input type="password" placeholder="password"/>
-      <button>Register</button>
-      <p class="message">Already Registered? <a href="#">Sign In</a></p>
+   
+      <input type="text" placeholder="Nama Lengkap" name="namalengkap" />
+      <input type="text" placeholder="email" name="email" />
+      <input type="text" placeholder="username" name="username" />
+      <input type="password" placeholder="password" name="password" />
+      <button type="submit">Register</button>
+      <p class="message">Already Registered? <a href="/loginfish">Sign In</a></p>
     </form>
   </div>
 </div>

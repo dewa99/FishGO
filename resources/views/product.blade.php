@@ -171,29 +171,6 @@
 	<!-- Products -->
 
 	<div class="product">
-
-		<!-- Sorting & Filtering -->
-		<div class="products_bar">
-			<div class="section_container">
-				<div class="container">
-					<div class="row">
-						<div class="col">
-							<div class="products_bar_content d-flex flex-row align-items-center justify-content-start">
-								<div class="product_categories">
-									<ul class="d-flex flex-row align-items-start justify-content-start flex-wrap">
-										<li class="active"><a href="#">All</a></li>
-										<li><a href="#">Hot Products</a></li>
-										<li><a href="#">New Products</a></li>
-										<li><a href="#">Sale Products</a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
 		<!-- Product Content -->
 		<div class="section_container">
 			<div class="container">
@@ -220,8 +197,8 @@
 							<div class="product_sidebar order-lg-2 order-1">
 								<form action="#" id="product_form" class="product_form">
 									<div class="product_name">Kakap Merah</div>
-									<div class="product_price">Rp.150000</div>
-									<div class="product_color">Per<span>Satuan</span></div>
+									<div class="product_price">Rp.15000</div>
+									<div class="product_color">Pantai Payangan Jember</div>
 									<div class="product_size">
 										<div class="product_size_title">Quantity</div>
 										<div class="product_size_list">
@@ -243,18 +220,15 @@
 													<label for="radio_4">20</label>
 												</li>
 												<li>
-													<input type="radio" id="radio_5" name="product_radio" class="regular_radio radio_5" disabled>
-													<label for="radio_5">25</label>
-												</li>
-												<li>
-													<input type="radio" id="radio_6" name="product_radio" class="regular_radio radio_6" disabled>
-													<label for="radio_6">30</label>
+													<input type="text" name="c_quantity" class="search_input" style="color: black">
+													Pesan Khusus
 												</li>
 											</ul>
 										</div>
 									</div>
 									<button class="cart_button trans_200">add to cart</button>
-									<div class="similar_products_button trans_200"><a href="categories.html">see similar products</a></div>
+									<div class="similar_products_button trans_200"><a href="#">Pre Order</a></div>
+									<div class="product_color">stok :<span>10</span></div>
 								</form>
 							</div>
 						</div>

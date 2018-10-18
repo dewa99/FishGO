@@ -22,5 +22,9 @@ class c_akses_halaman extends Controller
     {
     	return view('product');
     }
+    public function kategori()
+    {
+        return view('categories');
+    }
 
 }

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>FishGO</title>
+<title>Categories</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="description" content="aStar Fashion Template Project">
@@ -11,11 +11,8 @@
 <link rel="stylesheet" type="text/css" href="{{ url('/css/plugins/OwlCarousel2-2.2.1/owl.carousel.css') }}">
 <link rel="stylesheet" type="text/css" href="{{ url('/css/plugins/OwlCarousel2-2.2.1/owl.theme.default.css') }}">
 <link rel="stylesheet" type="text/css" href="{{ url('/css/plugins/OwlCarousel2-2.2.1/animate.css') }}">
-<link rel="stylesheet" type="text/css" href="{{ url('/css/styles/main_styles.css') }}">
-<link rel="stylesheet" type="text/css" href="{{ url('/css/styles/responsive.css') }}">
-<link rel="stylesheet" href="{{ url('https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css') }}">
-<link rel='stylesheet' href="{{ url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Material+Icons') }}">
-<link rel="stylesheet" href="{{ url('/css/css/style.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ url('/css/styles/categories.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ url('/css/styles/categories_responsive.css') }}">
 </head>
 <body>
 
@@ -55,7 +52,7 @@
 				<div class="cart d-flex flex-row align-items-center justify-content-start">
 					<div class="cart_icon"><a href="cart.html">
 						<img src="images/bag.png" alt="">
-						<div class="cart_num">3</div>
+						<div class="cart_num">2</div>
 					</a></div>
 				</div>
 
@@ -106,11 +103,6 @@
 	
 	<!-- Sidebar -->
 
-
-<!-- WEB  VIEW -->
-
-
-
 	<div class="sidebar">
 		
 		<!-- Info -->
@@ -148,126 +140,28 @@
 		<div class="cart d-flex flex-row align-items-center justify-content-start">
 			<div class="cart_icon"><a href="cart.html">
 				<img src="images/bag.png" alt="">
-				<div class="cart_num">3</div>
+				<div class="cart_num">2</div>
 			</a></div>
 			<div class="cart_text">bag</div>
 			<div class="cart_price">Rp.150000 (1)</div>
 		</div>
 	</div>
 
+<!-- WEB VIEW -->
+
 	<!-- Home -->
 
 	<div class="home">
-		
-		<!-- Home Slider -->
-		<div class="home_slider_container">
-			<div class="owl-carousel owl-theme home_slider">
-				
-				<!-- Slide -->
-				<div class="owl-item">
-					<div class="background_image" style='background-image: url(/images/makarel.jpg);'></div>
-					<div class="home_content_container">
-						<div class="home_content">
-							<div class="home_discount d-flex flex-row align-items-end justify-content-start">
-								<div class="home_discount_num">20</div>
-								<div class="home_discount_text">Discount</div>
-							</div>
-							<div class="home_title">Pengguna Baru</div>
-							<div class="button button_1 home_button trans_200"><a href="categories.html">Belanja Sekarang</a></div>
-						</div>
-					</div>
-				</div>
-
-				<!-- Slide -->
-				<div class="owl-item">
-					<div class="background_image" style='background-image: url(/images/payangan.jpg);' ></div>
-					<div class="home_content_container" id="payangan">
-						<div class="home_content">
-							<div class="home_discount d-flex flex-row align-items-end justify-content-start">
-								<div class="home_discount_num" style="color: white">20</div>
-								<div class="home_discount_text" style="color: white">Discount</div>
-							</div>
-							<div class="home_title" style="color: white">All Ikan Payangan</div>
-							<div class="button button_1 home_button trans_200"><a href="categories.html">Belanja Sekarang!</a></div>
-						</div>
-					</div>
-				</div>
-
-				<!-- Slide -->
-				<div class="owl-item">
-					<div class="background_image" style='background-image: url(/images/puger.jpg);'></div>
-					<div class="home_content_container">
-						<div class="home_content" id="payangan">
-							<div class="home_discount d-flex flex-row align-items-end justify-content-start">
-								<div class="home_discount_num" style="color: white">20%</div>
-								<div class="home_discount_text" style="color: white">Discount</div>
-							</div>
-							<div class="home_title" style="color: white">All Ikan Puger</div>
-							<div class="button button_1 home_button trans_200"><a href="categories.html">Belanja Sekarang!</a></div>
-						</div>
-					</div>
-				</div>
-
-			</div>
-				
-			<!-- Home Slider Navigation -->
-			<div class="home_slider_nav home_slider_prev trans_200"><div class=" d-flex flex-column align-items-center justify-content-center"><img src="images/prev.png" alt=""></div></div>
-			<div class="home_slider_nav home_slider_next trans_200"><div class=" d-flex flex-column align-items-center justify-content-center"><img src="images/next.png" alt=""></div></div>
-
-		</div>
-	</div>
-
-	<!-- Boxes -->
-	
-	<div class="boxes">
-		<div class="section_container">
-			<div class="container">
-				<div class="row">
-					
-					<!-- Box -->
-					<div class="col-lg-4 box_col">
-						<div class="box">
-							<div class="box_image"><img src="images/tuna.jpeg" alt=""></div>
-							<div class="box_title trans_200"><a href="categories.html">spesial tuna</a></div>
-						</div>
-					</div>
-
-					<!-- Box -->
-					<div class="col-lg-4 box_col">
-						<div class="box">
-							<div class="box_image"><img src="images/sarden.png" alt=""></div>
-							<div class="box_title trans_200"><a href="categories.html">spesial sarden</a></div>
-						</div>
-					</div>
-
-					<!-- Box -->
-					<div class="col-lg-4 box_col">
-						<div class="box">
-							<div class="box_image"><img src="images/tongkol_2.png" alt=""></div>
-							<div class="box_title trans_200"><a href="categories.html">Spesial Tongkol</a></div>
-						</div>
-					</div>
-
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- Categories -->
-
-	<div class="categories">
-		<div class="section_container">
-			<div class="container">
-				<div class="row">
-					<div class="col text-center">
-						<div class="categories_list_container">
-							<ul class="categories_list d-flex flex-row align-items-center justify-content-start">
-								<li><a href="categories.html">new arrivals</a></li>
-								<li><a href="categories.html">recommended</a></li>
-								<li><a href="categories.html">more protein</a></li>
-							</ul>
-						</div>
-					</div>
+		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/categories.jpg" data-speed="0.8"></div>
+		<div class="home_container">
+			<div class="home_content">
+				<div class="home_title">Shop</div>
+				<div class="breadcrumbs">
+					<ul class="d-flex flex-row align-items-center justify-content-start">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="#">Woman</a></li>
+						<li>Accessories</li>
+					</ul>
 				</div>
 			</div>
 		</div>
@@ -276,6 +170,52 @@
 	<!-- Products -->
 
 	<div class="products">
+
+		<!-- Sorting & Filtering -->
+		<div class="products_bar">
+			<div class="section_container">
+				<div class="container">
+					<div class="row">
+						<div class="col">
+							<div class="products_bar_content d-flex flex-column flex-xxl-row align-items-start align-items-xxl-center justify-content-start">
+								<div class="product_categories">
+									<ul class="d-flex flex-row align-items-start justify-content-start flex-wrap">
+										<li class="active"><a href="#">All</a></li>
+										<li><a href="#">Hot Products</a></li>
+										<li><a href="#">New Products</a></li>
+										<li><a href="#">Sale Products</a></li>
+									</ul>
+								</div>
+								<div class="products_bar_side ml-xxl-auto d-flex flex-row align-items-center justify-content-start">
+									<div class="products_dropdown product_dropdown_sorting">
+										<div class="isotope_sorting_text"><span>Default Sorting</span><i class="fa fa-caret-down" aria-hidden="true"></i></div>
+										<ul>
+											<li class="item_sorting_btn" data-isotope-option='{ "sortBy": "original-order" }'>Default</li>
+											<li class="item_sorting_btn" data-isotope-option='{ "sortBy": "price" }'>Price</li>
+											<li class="item_sorting_btn" data-isotope-option='{ "sortBy": "name" }'>Name</li>
+										</ul>
+									</div>
+									<div class="product_view d-flex flex-row align-items-center justify-content-start">
+										<div class="view_item active"><img src="images/view_1.png" alt=""></div>
+										<div class="view_item"><img src="images/view_2.png" alt=""></div>
+										<div class="view_item"><img src="images/view_3.png" alt=""></div>
+									</div>
+									<div class="products_dropdown text-right product_dropdown_filter">
+										<div class="isotope_filter_text"><span>Filter</span><i class="fa fa-caret-down" aria-hidden="true"></i></div>
+										<ul>
+											<li class="item_filter_btn" data-filter="*">All</li>
+											<li class="item_filter_btn" data-filter=".hot">Hot</li>
+											<li class="item_filter_btn" data-filter=".new">New</li>
+											<li class="item_filter_btn" data-filter=".sale">Sale</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 		<div class="section_container">
 			<div class="container">
 				<div class="row">
@@ -286,12 +226,12 @@
 							<div class="product grid-item hot">
 								<div class="product_inner">
 									<div class="product_image">
-										<img src="images/kakapmerah_1.jpg" alt="">
+										<img src="images/product_1.jpg" alt="">
 										<div class="product_tag">hot</div>
 									</div>
 									<div class="product_content text-center">
-										<div class="product_title"><a href="/product">Kakap Merah! Puger</a></div>
-										<div class="product_price">Rp.15000</div>
+										<div class="product_title"><a href="product.html">long red shirt</a></div>
+										<div class="product_price">$39.90</div>
 										<div class="product_button ml-auto mr-auto trans_200"><a href="#">add to cart</a></div>
 									</div>
 								</div>	
@@ -300,7 +240,7 @@
 							<!-- Product -->
 							<div class="product grid-item">
 								<div class="product_inner">
-									<div class="product_image"><img src="images/kakapmerah_1.jpg" alt=""></div>
+									<div class="product_image"><img src="images/product_2.jpg" alt=""></div>
 									<div class="product_content text-center">
 										<div class="product_title"><a href="product.html">hype grey shirt</a></div>
 										<div class="product_price">$19.50</div>
@@ -313,7 +253,7 @@
 							<div class="product grid-item sale">
 								<div class="product_inner">
 									<div class="product_image">
-										<img src="images/kakapmerah_1.jpg" alt="">
+										<img src="images/product_3.jpg" alt="">
 										<div class="product_tag">sale</div>
 									</div>
 									<div class="product_content text-center">
@@ -328,7 +268,7 @@
 							<div class="product grid-item">
 								<div class="product_inner">
 									<div class="product_image">
-										<img src="images/kakapmerah_1.jpg" alt="">
+										<img src="images/product_4.jpg" alt="">
 									</div>
 									<div class="product_content text-center">
 										<div class="product_title"><a href="product.html">denim men shirt</a></div>
@@ -342,7 +282,7 @@
 							<div class="product grid-item">
 								<div class="product_inner">
 									<div class="product_image">
-										<img src="images/kakapmerah_1.jpg" alt="">
+										<img src="images/product_5.jpg" alt="">
 									</div>
 									<div class="product_content text-center">
 										<div class="product_title"><a href="product.html">long red shirt</a></div>
@@ -356,7 +296,7 @@
 							<div class="product grid-item new">
 								<div class="product_inner">
 									<div class="product_image">
-										<img src="images/kakapmerah_1.jpg" alt="">
+										<img src="images/product_6.jpg" alt="">
 										<div class="product_tag">new</div>
 									</div>
 									<div class="product_content text-center">
@@ -371,7 +311,7 @@
 							<div class="product grid-item">
 								<div class="product_inner">
 									<div class="product_image">
-										<img src="images/kakapmerah_1.jpg" alt="">
+										<img src="images/product_7.jpg" alt="">
 									</div>
 									<div class="product_content text-center">
 										<div class="product_title"><a href="product.html">long sleeve jacket</a></div>
@@ -385,12 +325,127 @@
 							<div class="product grid-item sale">
 								<div class="product_inner">
 									<div class="product_image">
-										<img src="images/kakapmerah_1.jpg" alt="">
+										<img src="images/product_8.jpg" alt="">
 										<div class="product_tag">sale</div>
 									</div>
 									<div class="product_content text-center">
 										<div class="product_title"><a href="product.html">denim men shirt</a></div>
 										<div class="product_price">$43.99<span>RRP 64.40</span></div>
+										<div class="product_button ml-auto mr-auto trans_200"><a href="#">add to cart</a></div>
+									</div>
+								</div>	
+							</div>
+
+							<!-- Product -->
+							<div class="product grid-item hot">
+								<div class="product_inner">
+									<div class="product_image">
+										<img src="images/product_9.jpg" alt="">
+										<div class="product_tag">hot</div>
+									</div>
+									<div class="product_content text-center">
+										<div class="product_title"><a href="product.html">long red shirt</a></div>
+										<div class="product_price">$39.90</div>
+										<div class="product_button ml-auto mr-auto trans_200"><a href="#">add to cart</a></div>
+									</div>
+								</div>	
+							</div>
+
+							<!-- Product -->
+							<div class="product grid-item">
+								<div class="product_inner">
+									<div class="product_image"><img src="images/product_10.jpg" alt=""></div>
+									<div class="product_content text-center">
+										<div class="product_title"><a href="product.html">hype grey shirt</a></div>
+										<div class="product_price">$19.50</div>
+										<div class="product_button ml-auto mr-auto trans_200"><a href="#">add to cart</a></div>
+									</div>
+								</div>	
+							</div>
+
+							<!-- Product -->
+							<div class="product grid-item sale">
+								<div class="product_inner">
+									<div class="product_image">
+										<img src="images/product_11.jpg" alt="">
+										<div class="product_tag">sale</div>
+									</div>
+									<div class="product_content text-center">
+										<div class="product_title"><a href="product.html">long sleeve jacket</a></div>
+										<div class="product_price">$32.20<span>RRP 64.40</span></div>
+										<div class="product_button ml-auto mr-auto trans_200"><a href="#">add to cart</a></div>
+									</div>
+								</div>	
+							</div>
+
+							<!-- Product -->
+							<div class="product grid-item">
+								<div class="product_inner">
+									<div class="product_image">
+										<img src="images/product_12.jpg" alt="">
+									</div>
+									<div class="product_content text-center">
+										<div class="product_title"><a href="product.html">denim men shirt</a></div>
+										<div class="product_price">$59.90</div>
+										<div class="product_button ml-auto mr-auto trans_200"><a href="#">add to cart</a></div>
+									</div>
+								</div>	
+							</div>
+
+							<!-- Product -->
+							<div class="product grid-item hot">
+								<div class="product_inner">
+									<div class="product_image">
+										<img src="images/product_13.jpg" alt="">
+										<div class="product_tag">hot</div>
+									</div>
+									<div class="product_content text-center">
+										<div class="product_title"><a href="product.html">long red shirt</a></div>
+										<div class="product_price">$39.90</div>
+										<div class="product_button ml-auto mr-auto trans_200"><a href="#">add to cart</a></div>
+									</div>
+								</div>	
+							</div>
+
+							<!-- Product -->
+							<div class="product grid-item new">
+								<div class="product_inner">
+									<div class="product_image">
+										<img src="images/product_14.jpg" alt="">
+										<div class="product_tag">new</div>
+									</div>
+									<div class="product_content text-center">
+										<div class="product_title"><a href="product.html">hype grey shirt</a></div>
+										<div class="product_price">$19.50</div>
+										<div class="product_button ml-auto mr-auto trans_200"><a href="#">add to cart</a></div>
+									</div>
+								</div>	
+							</div>
+
+							<!-- Product -->
+							<div class="product grid-item sale">
+								<div class="product_inner">
+									<div class="product_image">
+										<img src="images/product_15.jpg" alt="">
+										<div class="product_tag">sale</div>
+									</div>
+									<div class="product_content text-center">
+										<div class="product_title"><a href="product.html">long sleeve jacket</a></div>
+										<div class="product_price">$32.20<span>RRP 64.40</span></div>
+										<div class="product_button ml-auto mr-auto trans_200"><a href="#">add to cart</a></div>
+									</div>
+								</div>	
+							</div>
+
+							<!-- Product -->
+							<div class="product grid-item">
+								<div class="product_inner">
+									<div class="product_image">
+										<img src="images/product_16.jpg" alt="">
+									</div>
+									<div class="product_content text-center">
+										<div class="product_title"><a href="product.html">denim men shirt</a></div>
+										<div class="product_price">$59.90</div>
 										<div class="product_button ml-auto mr-auto trans_200"><a href="#">add to cart</a></div>
 									</div>
 								</div>	
@@ -402,8 +457,6 @@
 			</div>
 		</div>
 	</div>
-
-
 
 	
 	<!-- Footer -->
@@ -512,15 +565,10 @@
 			</div>				
 		</div>
 
+	</footer>	
 		
-	</footer>
 
 </div>
-
-
-
-
-
 
 <script src="{{ asset('/js/js/jquery-3.2.1.min.js') }}"></script>
 <script src="{{ asset('/js/styles/bootstrap-4.1.3/popper.js') }}"></script>
